@@ -1,0 +1,47 @@
+body{
+    font-family: Trebuchet MS, sans-serif; 
+    background-color:white; }
+
+img {
+    margin-top:30px;
+}
+
+a{ 
+    text-decoration: none;
+}
+/*formulário login*/
+#formlogin {
+    width: 100%;
+    display: block;
+    position: absolute;
+    padding-top: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;}
+
+.form-inline label {
+  margin: 5px 10px 5px 0; }
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #E52A6F;
+  border: 1px solid #ddd; }
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
